@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Booking</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+<body>
+	<div class="form-container">
+		<h2>FORM Booking Jasa Laundry</h2>
+		<form method="post" action="">
+
+		   <div class="form-grup">
+			   <label for="nama">NAMA PELANGGAN</label>
+			   <input type="text" id="nama">
+		   </div>
+
+		   <div class="form-grup">
+			   <label for="alamat">Alamat</label>
+			   <textarea name="alamat" cols="40px" rows="3"></textarea>
+		   </div>
+
+		   <div class="form-grup">
+			   <label for="no hp">No. Telp</label>
+			   <input type="number" id="no hp">
+		   </div>
+
+		   <div class="form-grup">
+			<label for="tangga lahir">Tanggal Lahir</label>
+			<input type="date" id="tanggal lahir">
+		</div>
+
+		   <div class="form-grup">
+			   <label for="Informasi">Via pengiriman</label>
+			   <input type="text" name="education" list="Informasi">
+			   <datalist id="Informasi">
+				   <option value="Diambil Sendiri ">
+				   <option value="Di Antar Ke Alamat">
+			   </datalist>
+		   </div>
+
+		   <div class="form-grup">
+			   <label for="jabatan">Status Yang Mau Dicuci</label>
+			   <input type="text" name="education" list="status">
+			   <datalist id="status">
+				    <option value="Pakaian Kotor">
+				    <option value="Sprinbag">
+				    <option value="Karpet">
+				    <option value="Jaz">
+					<option value="Sepatu">
+			   </datalist>
+		   </div>
+
+		   <div class="simpan">
+			   <p>
+			   <input type="submit" value="simpan" style="background-color: blueviolet;"> <input type="reset" value="batal" style="background-color: brown;">
+			   </p>
+		   </div>
+   </div>
+
+
+ 
+</body>
+</html>
